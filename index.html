@@ -87,14 +87,14 @@
         <!-- Mobile Menu -->
 
         <button
-          class="menu-open__button js-open-menu"
+          class="menu-open-button js-open-menu"
           type="button"
           aria-expanded="false"
           aria-controls="mobile-menu"
           data-menu-open-btn
         >
           <svg
-            class="menu-open__icon"
+            class="menu-open-icon"
             width="32"
             height="23"
             stroke="var(--color-black)"
@@ -103,8 +103,8 @@
             role="img"
           >
             <use
-              class="menu-open__use"
-              xlink:href="./sprite.svg#icon-menu-mini"
+              class="menu-open-use"
+              xlink:href="./images/icons.svg#icon-Nav"
             ></use>
           </svg>
         </button>
@@ -118,7 +118,7 @@
             data-menu-close-btn
           >
             <svg class="menu-close-icon" width="32" height="32">
-              <use href="./sprite.svg#icon-x-close"></use>
+              <use href="./images/icons.svg#icon-Nav"></use>
             </svg>
           </button>
 
@@ -191,13 +191,9 @@
         </div>
       </div>
     </header>
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
     <script defer src="./mobile-menu.js"></script>
     <script src="./modal.js"></script>
+    <script src="./form.js"></script>
+    <script src="./mobile-icon-open.js"></script>
   </body>
 </html>
